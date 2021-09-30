@@ -12,7 +12,6 @@ In this task, you will create three endpoints:
    $ yarn global add nodemon
    ```
 2. Create a new repository, don't forget to add a `.gitignore` file of type `Node`. Then clone it.
-3. Create the repo and clone it.
 
 ### 2. Setup Your Express App
 
@@ -26,7 +25,7 @@ In this task, you will create three endpoints:
 ### 2. Data Setup
 
 1. Create a new file called `data.json`. Copy the following data in this file. _You don't need to export it._
-2. Then require it in `app.js`.
+2. Require it in `app.js`.
 
 ### 3. Product List Route
 
