@@ -46,6 +46,7 @@ Create an API that creates a new product and returns this new product as a respo
 1. To use the data passed to the body of a request we need to parse it. Call the `express.json()` method inside an `app.use()` method **above** your routes.
 2. The route's method should be `post`and the URL for this route should have the following syntax: `/products`.
 3. Add the object you got from the body of the request to your array of data.
+
 **CHALLENGE: **The status code for creating is `201` and the response is the new product you added. How can we change the response status?
 
 #### Testing
@@ -63,7 +64,9 @@ Create a route that deletes a product according to the requested ID in the URL:
 1. The route's method should be `delete`and the URL for this route should have the following syntax: `/products/:productId`.
 2. Capture the ID from the URL and use it to **find** the product with this ID.
 3. If the product exists, remove it from your data array.
+
 **CHALLENGE: **The status code for deleting is [`204`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204) and the response contains no content. How can we do that?
+
 **ANOTHER CHALLENGE: **What if the product you're trying to delete doesn't exist? What should the status code be? And what should the response be?
 
 
