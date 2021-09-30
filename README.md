@@ -39,7 +39,7 @@ Create a route that sends the list of your products:
 
 Test your endpoint using the browser. It should display your array of products.
 
-#### 5. Product Create Route
+### 5. Product Create Route
 
 Create an API that creates a new product and returns this new product as a response.
 
