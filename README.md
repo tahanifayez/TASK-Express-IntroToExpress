@@ -54,8 +54,7 @@ Create an API that creates a new product and returns this new product as a respo
 Test your routes in Postman.
 
 1. Send a new object in the `body` to the create product endpoint. Make sure to add it under `raw` and that your data type is `json`.
-2. The response must return the product you created along with an ID.
-3. Send a request to the retrieve products list route to make sure your product is added with the correct ID.
+2. Send a request to the retrieve products list route to make sure your product is added with the correct ID.
 
 ### 5. Product Delete Route
 
