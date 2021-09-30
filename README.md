@@ -22,12 +22,12 @@ In this task, you will create three endpoints:
 4. Bind your application to port `8000` using the `listen()` method.
 5. Create a script in `package.json` that executes `nodemon app.js` when you run `yarn start`.
 
-### 2. Data Setup
+### 3. Data Setup
 
 1. Create a new file called `data.json`. Copy the following data in this file. _You don't need to export it._
 2. Require it in `app.js`.
 
-### 3. Product List Route
+### 4. Product List Route
 
 Create a route that sends the list of your products:
 
@@ -39,7 +39,7 @@ Create a route that sends the list of your products:
 
 Test your endpoint using the browser. It should display your array of products.
 
-#### 4. Product Create Route
+#### 5. Product Create Route
 
 Create an API that creates a new product and returns this new product as a response.
 
@@ -56,7 +56,7 @@ Test your routes in Postman.
 1. Send a new object in the `body` to the create product endpoint. Make sure to add it under `raw` and that your data type is `json`.
 2. Send a request to the retrieve products list route to make sure your product is added with the correct ID.
 
-### 5. Product Delete Route
+### 6. Product Delete Route
 
 Create a route that deletes a product according to the requested ID in the URL:
 
