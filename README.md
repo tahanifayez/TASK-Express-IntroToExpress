@@ -74,5 +74,5 @@ Create a route that deletes a product according to the requested ID in the URL:
 Test your endpoints using Postman.
 
 1. Send a valid product ID through the URL. It should delete the product and return a `204` status.
-2. Send a non-valid product ID through the URL. It should return a `404` status and a message.
+2. Send a non-valid product ID through the URL. It should return a message.
 3. Then test the product list endpoint, it should return your products without the product you deleted successfully.
