@@ -20,7 +20,7 @@ In this task you will setup your first Express app and create one endpoint that 
 
 ### 3. Data Setup
 
-1. Create a new file called `data.js`. Copy the following data in this file. _Don't forget to export it._
+1. Create a new file called `data.js`. Copy the following [data](https://github.com/JoinCODED/TASK-Express-IntroToExpress/blob/main/products.js "data") in this file. _Don't forget to export it._
 2. Require it in `app.js`.
 
 ### 4. Product List Route
